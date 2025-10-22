@@ -36,8 +36,8 @@ Given that feature description, do this:
    **IMPORTANT**:
 
    - Append the short-name argument to the `{SCRIPT}` command with the 2-4 word short name you created in step 1
-   - Bash: `--short-name "your-generated-short-name"`
-   - PowerShell: `-ShortName "your-generated-short-name"`
+   - Bash example: `scripts/bash/create-new-feature.sh --json --short-name your-short-name "Full feature description here"`
+   - PowerShell example: `scripts/powershell/create-new-feature.ps1 -Json -ShortName your-short-name "Full feature description here"`
    - For single quotes in args like "I'm Groot", use escape syntax: e.g 'I'\''m Groot' (or double-quote if possible: "I'm Groot")
    - You must only ever run this script once
    - The JSON is provided in the terminal as output - always refer to it to get the actual content you're looking for
